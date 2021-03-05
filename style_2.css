@@ -1,0 +1,91 @@
+*,*::after, *::before {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.frame {
+    width: 284px;
+    height: 282px;
+    padding: 15px;
+    border: 1px blue solid;
+    margin-top: 15px;
+}
+
+label {
+    margin-top: 7px;
+}
+.wrapper {
+    width: 350px;
+    height: 550px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sex {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+#sex_ {
+    box-shadow: none;
+}
+
+input {
+    margin-top: 5px;
+    box-shadow: 2px 4px 13px 0px; 
+}
+
+#ege, #sex {
+    display: inline-block;
+    box-shadow: none;
+}
+
+#ege input {
+    box-shadow: none;
+}
+
+#ege {
+    margin-top: 20px;
+}
+
+.check {
+    margin-left: 20px;
+}
+
+.submit {
+    display: flex;
+    margin-left: -235px;
+    margin-top: 5px;
+    width: 80px;
+    height: 60px;
+}
+
+.submit button {
+    background-color: rgb(83, 52, 199);
+    outline: none;
+    width: 100px;
+    height: 50px;
+    color: blanchedalmond;
+    font-size: 1.2em;
+    font-family: cursive;
+}
